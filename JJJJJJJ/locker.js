@@ -1,3 +1,5 @@
+const inputs = document.querySelectorAll("input"),
+button = document.querySelector("button");
 // iterate over all inputs
 inputs.forEach((input, index1) => {
 input.addEventListener("keyup", (e) => {
